@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="loginpage.css">
+    <link rel="stylesheet" href="mainpage.html">
+    <link rel="stylesheet" href="forgotPassword.html">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>InfinityNetwork</title>
+    <link rel= "website icon" type = "png"
+href = "images/WebSite Icon.png">
+</head>
+<body>
+    <p> </p>
+    <br><br>
+    <br><br>
+    <br><br>
+    <form action="">
+        <!-- Headings for the form -->
+        <div class="headingsContainer">
+            <h2>Sign in</h2>
+        </div>
+
+        <!-- Main container for all inputs -->
+        <div class="mainContainer">
+            <!-- Username -->
+            <label for="username">Username or Email Adress</label>
+            <input type="text" placeholder="Enter Username or Email Adress" name="username" required>
+
+            <br><br>
+
+            <!-- Password -->
+            <label for="pswrd">Password</label>
+            <input type="password" placeholder="Enter Password" name="pswrd" required>
+
+            <!-- sub container for the checkbox and forgot password link -->
+            <div class="subcontainer">
+                <label>
+                  <input type="checkbox" checked="checked" name="remember"> Remember me
+                </label>
+                <p class="forgotpsd"> <a href="forgotPassword.html">Forgot Password?</a></p>
+            </div>
+
+
+            <!-- Submit button -->
+            <button type="submit">Login (daca te intrebi de ce nu merge, raspunsul este simplu, sunt prea prost sa fac un buton functional) <a href="mainpage.html"></a></button> 
+            <!-- Sign up link -->
+            <p class="register">Not a Member?  <a href="registerpage.html">Register Here!</a></p>
+        </div>
+    </form>
+</body>
+</html>
